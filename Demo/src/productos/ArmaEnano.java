@@ -1,20 +1,13 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package productos;
-
-/**
- *
- * @author judil
- */
+//PRODUCTO CONCRETO
 public class ArmaEnano implements Arma{
     @Override
-    public String Estado() {
-        return "Creando arma enano";
-    }
-    public static String Arma(){
+    public String Caracteristicas(){
         return "Elaborada con madera del árbol de la vida";
+    }
+
+    @Override
+    public String Arma() {
+        return "/gui/partes_personajes/arma_enano.png";
     }
 }
